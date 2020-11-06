@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+
+	
+	printf("Intrest Calculater\n");
+	float a;
+	float b;
+	float c;
+	printf("Enter the Princial Amount in INR\n");
+	scanf("%f", &a);
+		printf("Enter the intrest rate percent per year\n");
+	scanf("%f", &b);
+		printf("Enter the time in years\n");
+	scanf("%f", &c);
+
+	printf("The Intrest is =%f\n", a*b*c/100);
+		printf("The Total Addition Amount is =%f", a+a*b*c/100);
+		printf("INR");
+    return 0;
+}
